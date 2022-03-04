@@ -6,7 +6,7 @@ This test repository has been provided to you with a sample application, and you
 ## To get started
 
 1) Fork this repository to your own Github account
-2) In your fork, Create a new branch from `master` (using your name as the branch name). When the test is complete, you will submit a Pull Request for this branch.
+2) In your fork, Create a new branch from `master`. When the test is complete, you will submit a Pull Request for this branch.
 3) To start the application, simply run `npm start` from the root of the repository. This should start a local webpack development server at `http://localhost:3000`.
 4) When ready, submit your code to us by adding a CloudZero user to your forked repository.
 
