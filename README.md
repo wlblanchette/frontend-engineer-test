@@ -1,3 +1,62 @@
+# About The Test
+The frontend engineering test has been designed to be simple and straightforward, while providing a practical sample  of the kind of day-to-day work that happens inside the CloudZero platform. 
+
+This test repository has been provided to you with a sample application, and you will be required to implement some additional functionality into the application.
+
+## To get started
+
+1) Fork this repository to your own Github account
+2) In your fork, Create a new branch from `master` (using your name as the branch name). When the test is complete, you will submit a Pull Request for this branch.
+3) To start the application, simply run `npm start` from the root of the repository. This should start a local webpack development server at `http://localhost:3000`.
+4) When ready, submit your code to us by adding a CloudZero user to your forked repository.
+
+## About the CloudZero Resource Advisor
+The CloudZero Resource advisor is a real application inside our platform. It is designed to provide customers with basic pricing  information around AWS EC2 products. For this test, you will help add some basic features to the sample application that can display and filter this product information from a live web API endpoint.
+
+## Requirements
+
+The sample application provides you with the following:
+
+1) A Typescript project (see notes about Typescript below).
+2) A `create-react-app` application using React 17 (see below for details).
+3) Stubbed files and components for completing the work.
+4) [Bulma CSS](https://bulma.io/documentation/) for very simple page styles.
+
+We want you to draw on your own experience and judgment when implementing these features. Please feel free to add libraries or change things as you see fit. We only have 2 technical requirements for your solution:
+
+1) All code submitted must be written in Javascript or Typescript
+2) You must use React as the app's component library.
+
+That being said, there is really no need to add any additional bells-and-whistles beyond what is asked for in the 
+instructions.
+
+## Instructions
+Please complete the following steps in order.
+
+1) Currently, the product table is receiving all of its data from a JSON file called `sample-data.json`.
+   We would like to load this data from the live API instead. Please implement a mechanism for fetching and displaying 
+   data from this endpoint url: `https://api.cloudzero.com/advisor/v1/products/list`.
+   1) Consider using the (currently empty) `src/api` module to implement this logic.
+
+
+2) It would be really nice if a user could filter the rows of the table based on some search criteria. Please add a search field above the table that will filter rows based on text input from the user.
+   1) The solution should support partial matching for any piece of text in the table. For example, if I enter the string 'mpu', it should match the word 'Compute'.
+   2) The search should match against ANY column of the table. To use the previous example, the string 'mpu' would  match 'Compute' in the Resource Type column and 'Accelerated Computing' in the Purpose column.
+   3) Time permitting, please try to make the search experience as pleasant for the user as possible. Perhaps the user doesn't want to see the table refreshing on every keystroke, or they might want to see a count of matched rows, or their search terms highlighted in the result. Again, use your best judgment.
+
+
+3) The table of products is very long. We would love to see it support pagination. Please 'hook up', the previous and next buttons below the table to move between pages. Each page should only show 20 rows of data.
+
+## Using Typescript
+We have provided you with a Typescript project because that is what we use a CloudZero. But please know **we are not evaluating your knowledge of Typescript**,
+and writing typed Javascript is completely optional.
+- You should be able to write plain Javascript inside `.ts` files, without needing to specify types.
+- If you are creating React components, be sure to use the `.tsx` extension on files that contain JSX code
+- We have provided some useful typings around the API data in `types.ts` -- this should be helpful in providing some autocompletion for data objects
+- If you do prefer to work with Typescript, you may consider re-enabling the `strict` compiler flag in `tsconfig.json`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
