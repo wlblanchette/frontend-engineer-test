@@ -7,13 +7,13 @@ This test repository has been provided to you with a sample application, and you
 
 1) Fork this repository to your own Github account
 2) In your fork, Create a new branch from `master`. When the test is complete, you will submit a Pull Request for this branch.
-3) To start the application, simply run `npm start` from the root of the repository. This should start a local webpack development server at `http://localhost:3000`.
+3) To start the application, simply run `npm start` from the root of the repository. This should start a local webpack development server at `http://localhost:3000`. When the app loads, you should see a page titled CloudZero Resource Advisor with a table of data displayed below.
 4) When ready, submit your code to us by adding a CloudZero user to your forked repository.
 
 ## About the CloudZero Resource Advisor
 The CloudZero Resource advisor is a real application inside our platform. It is designed to provide customers with basic pricing  information around AWS EC2 products. For this test, you will help add some basic features to the sample application that can display and filter this product information from a live web API endpoint.
 
-## Requirements
+## Criteria
 
 The sample application provides you with the following:
 
