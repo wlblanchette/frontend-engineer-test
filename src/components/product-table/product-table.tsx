@@ -11,9 +11,11 @@ const ProductTable: FunctionComponent<Props> = ({rows, cols}) => {
     <div className="product-table table-container">
       <table className="table is-striped is-hoverable">
         <thead>
-        {cols.map(col => (
-          <th key={col.field}>{col.display_name}</th>
-        ))}
+          <tr>
+            {cols.map(col => (
+              <th key={col.field}>{col.display_name}</th>
+            ))}
+          </tr>
         </thead>
         <tbody>
         {rows.map(row => (

@@ -1,5 +1,5 @@
 # About The Test
-The frontend engineering test has been designed to be simple and straightforward, while providing a practical sample  of the kind of day-to-day work that happens inside the CloudZero platform. 
+The frontend engineering test has been designed to be simple and straightforward, while providing a practical sample  of the kind of day-to-day work that happens inside the CloudZero platform.
 
 This test repository has been provided to you with a sample application, and you will be required to implement some additional functionality into the application.
 
@@ -27,15 +27,11 @@ We want you to draw on your own experience and judgment when implementing these 
 1) All code submitted must be written in Javascript or Typescript
 2) You must use React as the app's component library.
 
-That being said, there is really no need to add any additional bells-and-whistles beyond what is asked for in the 
-instructions.
-
 ## Instructions
 Please complete the following steps in order.
 
 1) Currently, the product table is receiving all of its data from a JSON file called `sample-data.json`.
-   We would like to load this data from the live API instead. Please implement a mechanism for fetching and displaying 
-   data from this endpoint url: `https://api.cloudzero.com/advisor/v1/products/list`.
+   We would like to load this data from a mock API instead. Please execute the `npm run serve` command in your terminal to start the mock server and then implement a mechanism to send a GET request to: `http://localhost:8080/resources`.
    1) Consider using the (currently empty) `src/api` module to implement this logic.
 
 
@@ -64,6 +60,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run serve`
+
+Runs the mock API server\
+Runs on `http://localhost:8080`
+
+Supports `GET` calls at `http://localhost:8080/resources` .\
+Returns a list of all available resources
 
 ### `npm start`
 
