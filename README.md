@@ -27,15 +27,11 @@ We want you to draw on your own experience and judgment when implementing these 
 1) All code submitted must be written in Javascript or Typescript
 2) You must use React as the app's component library.
 
-That being said, there is really no need to add any additional bells-and-whistles beyond what is asked for in the
-instructions.
-
 ## Instructions
 Please complete the following steps in order.
 
 1) Currently, the product table is receiving all of its data from a JSON file called `sample-data.json`.
-   We would like to load this data from a mock API instead. Please execute the `npm run serve` command in your terminal and implement a mechanism for GETing and displaying
-   data from this endpoint url: `http://localhost:8080/resources`.
+   We would like to load this data from a mock API instead. Please execute the `npm run serve` command in your terminal to start the mock server and then implement a mechanism to send a GET request to: `http://localhost:8080/resources`.
    1) Consider using the (currently empty) `src/api` module to implement this logic.
 
 
