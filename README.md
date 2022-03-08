@@ -40,7 +40,7 @@ Please complete the following steps in order.
 2) It would be really nice if a user could filter the rows of the table based on some search criteria. Please add a search field above the table that will filter rows based on text input from the user.
    1) The solution should support partial matching for any piece of text in the table. For example, if I enter the string 'mpu', it should match the word 'Compute'.
    2) The search should match against ANY column of the table. To use the previous example, the string 'mpu' would  match 'Compute' in the Resource Type column and 'Accelerated Computing' in the Purpose column.
-   3) Please try to make the search experience as pleasant for the user as possible while working within the time constraint. Perhaps the user doesn't want to see the table refreshing on every keystroke, or they might want to see a count of matched rows, or their search terms highlighted in the result. Again, use your best judgment.
+   3) Please try to make the search experience as pleasant for the user as possible while working within the time constraint. Perhaps the user doesn't want to see the table refreshing on every keystroke, or they might want to see a count of matched rows, or their search terms highlighted in the result. Again, use your best judgment, we don’t expect you to get to everything.
 
 
 ## Using Typescript
