@@ -1,5 +1,6 @@
 # About The Test
 The frontend engineering test has been designed to be simple and straightforward, while providing a practical sample  of the kind of day-to-day work that happens inside the CloudZero platform.
+
 We expect you to spend 1-2 hours on this exercise, and our goal is that it should be closer to 1 hour. We tell you this because we know you’re busy and we appreciate the time you’re spending to interview with us - so don’t feel like you need to set a timer for yourself (unless that helps you).
 
 This test repository has been provided to you with a sample application, and you will be required to implement some additional functionality into the application.
