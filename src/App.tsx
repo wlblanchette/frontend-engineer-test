@@ -3,7 +3,7 @@
 import React from 'react';
 import './App.css';
 import sampleData from './sample-data.json'
-import { Pagination, ProductTable, Search } from './components'
+import { ProductTable, Search } from './components'
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
           rows={sampleData.data}
           cols={sampleData.columns}
         />
-        <Pagination />
       </main>
     </div>
   );

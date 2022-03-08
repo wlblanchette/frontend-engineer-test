@@ -1,6 +1,8 @@
 # About The Test
 The frontend engineering test has been designed to be simple and straightforward, while providing a practical sample  of the kind of day-to-day work that happens inside the CloudZero platform.
 
+We expect you to spend 1-2 hours on this exercise, and our goal is that it should be closer to 1 hour. We tell you this because we know you’re busy and we appreciate the time you’re spending to interview with us - so don’t feel like you need to set a timer for yourself (unless that helps you).
+
 This test repository has been provided to you with a sample application, and you will be required to implement some additional functionality into the application.
 
 ## To get started
@@ -38,10 +40,8 @@ Please complete the following steps in order.
 2) It would be really nice if a user could filter the rows of the table based on some search criteria. Please add a search field above the table that will filter rows based on text input from the user.
    1) The solution should support partial matching for any piece of text in the table. For example, if I enter the string 'mpu', it should match the word 'Compute'.
    2) The search should match against ANY column of the table. To use the previous example, the string 'mpu' would  match 'Compute' in the Resource Type column and 'Accelerated Computing' in the Purpose column.
-   3) Time permitting, please try to make the search experience as pleasant for the user as possible. Perhaps the user doesn't want to see the table refreshing on every keystroke, or they might want to see a count of matched rows, or their search terms highlighted in the result. Again, use your best judgment.
+   3) Please try to make the search experience as pleasant for the user as possible while working within the time constraint. Perhaps the user doesn't want to see the table refreshing on every keystroke, or they might want to see a count of matched rows, or their search terms highlighted in the result. Again, use your best judgment, we don’t expect you to get to everything.
 
-
-3) The table of products is very long. We would love to see it support pagination. Please 'hook up', the previous and next buttons below the table to move between pages. Each page should only show 20 rows of data.
 
 ## Using Typescript
 We have provided you with a Typescript project because that is what we use a CloudZero. But please know **we are not evaluating your knowledge of Typescript**,
