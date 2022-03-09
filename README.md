@@ -5,6 +5,8 @@ We expect you to spend 1-2 hours on this exercise, and our goal is that it shoul
 
 This test repository has been provided to you with a sample application, and you will be required to implement some additional functionality into the application.
 
+If you encounter any issues getting up and running, please reach out! Don't feel like you're in it alone.
+
 ## To get started
 
 1) Fork this repository to your own Github account
